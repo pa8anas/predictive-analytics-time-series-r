@@ -2,6 +2,7 @@
 
 This directory contains the final written deliverables for the project.
 
-- `report.pdf` — final technical report.
+- `predictive_analytics_time_series_report_gr.pdf` — Greek version of the final technical report.
+- `predictive_analytics_time_series_report_en.pdf` — English version of the final technical report.
 
-The originally uploaded `report r.pdf` is preserved in the repository root unchanged.
+The report filenames follow the repository naming convention and clearly distinguish the Greek and English versions.
