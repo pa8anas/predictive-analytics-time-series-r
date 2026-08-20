@@ -22,16 +22,12 @@ The repository contains three exercises / case-study groups:
 │   ├── open-meteo-37.93N22.83E37m.csv
 │   └── unemployment_spain.txt
 ├── docs/
-│   └── report.pdf
-├── ask1.txt                         # original uploaded file (preserved)
-├── ask2.txt                         # original uploaded file (preserved)
-├── ask3.txt                         # original uploaded file (preserved)
-├── open-meteo-37.93N22.83E37m.csv  # original uploaded file (preserved)
-├── report r.pdf                     # original uploaded file (preserved)
-└── unemployment_spain.txt           # original uploaded file (preserved)
+│   ├── predictive_analytics_time_series_report_gr.pdf
+│   └── predictive_analytics_time_series_report_en.pdf
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
-
-The files in `scripts/`, `data/`, and `docs/` are organized copies of the original uploads. The original root files are intentionally retained unchanged.
 
 ## Methods
 
@@ -52,10 +48,17 @@ The files in `scripts/`, `data/`, and `docs/` are organized copies of the origin
 - `cmort` and global temperature series: datasets used through the `astsa` R package.
 - Beer-sales data: coursework dataset supplied in the assignment.
 
+## Reports
+
+The `docs/` directory contains both the Greek and English versions of the final technical report:
+
+- `predictive_analytics_time_series_report_gr.pdf` — Greek report
+- `predictive_analytics_time_series_report_en.pdf` — English report
+
 ## Running the analyses
 
 Open R or RStudio from the repository root and run the relevant script in `scripts/`. Some parts use the `astsa` package; the remaining analyses primarily rely on base R time-series functions.
 
-## Notes
+## License
 
-This repository preserves the original uploaded coursework files while also providing a cleaner structure for browsing the code, data, and final report.
+This project is licensed under the MIT License.
